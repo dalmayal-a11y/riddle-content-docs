@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service — Riddle Content Automation Tools</title>
+<style>
+  :root {
+    --bg: #eae7e0;
+    --surface: #faf9f5;
+    --ink: #1c1e22;
+    --ink-soft: #4a4d54;
+    --rule: #d3cfc4;
+    --accent: #2c4a52;
+    --accent-soft: #3f6771;
+    --stamp: #9c4a3a;
+    --stamp-bg: #f1e4de;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16181c;--surface:#1e2126;--ink:#e7e4dc;--ink-soft:#a9a69d;--rule:#34373d;--accent:#7fb0b9;--accent-soft:#5d8890;--stamp:#e08a72;--stamp-bg:#33241f; }
+  }
+  :root[data-theme="dark"] { --bg:#16181c;--surface:#1e2126;--ink:#e7e4dc;--ink-soft:#a9a69d;--rule:#34373d;--accent:#7fb0b9;--accent-soft:#5d8890;--stamp:#e08a72;--stamp-bg:#33241f; }
+  :root[data-theme="light"] { --bg:#eae7e0;--surface:#faf9f5;--ink:#1c1e22;--ink-soft:#4a4d54;--rule:#d3cfc4;--accent:#2c4a52;--accent-soft:#3f6771;--stamp:#9c4a3a;--stamp-bg:#f1e4de; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    font-size: 17px; line-height: 1.65;
+    display: flex; justify-content: center; padding: 56px 20px 80px;
+  }
+  .sheet { width: 100%; max-width: 700px; background: var(--surface); border: 1px solid var(--rule); box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+  .sheet-inner { padding: 48px 52px 56px; }
+  @media (max-width: 560px) { .sheet-inner { padding: 34px 22px 40px; } }
+  header { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 22px; margin-bottom: 30px; }
+  .eyebrow { font-family: ui-monospace, "SF Mono", Consolas, "Liberation Mono", monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-soft); margin: 0 0 10px; }
+  h1 { font-family: Georgia, serif; font-weight: 700; font-size: 29px; line-height: 1.25; margin: 0; text-wrap: balance; max-width: 30ch; }
+  .stamp { flex-shrink: 0; border: 1.5px solid var(--stamp); color: var(--stamp); background: var(--stamp-bg); font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; padding: 8px 12px; text-align: center; transform: rotate(2deg); white-space: nowrap; }
+  .stamp strong { display: block; font-size: 12.5px; letter-spacing: 0.1em; margin-bottom: 2px; }
+  .lede { color: var(--ink-soft); font-size: 15.5px; max-width: 60ch; margin: 0 0 38px; }
+  section { padding: 26px 0; border-top: 1px solid var(--rule); }
+  section:first-of-type { border-top: none; padding-top: 0; }
+  .sec-head { display: flex; align-items: baseline; gap: 12px; margin: 0 0 12px; }
+  .sec-num { font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: 13px; color: var(--accent); flex-shrink: 0; }
+  h2 { font-family: Georgia, serif; font-weight: 700; font-size: 17px; margin: 0; color: var(--ink); }
+  section p, section li { max-width: 62ch; color: var(--ink-soft); font-size: 15.5px; }
+  section p { margin: 0 0 12px; }
+  section p:last-child { margin-bottom: 0; }
+  section ul { margin: 12px 0; padding-left: 22px; }
+  section li { margin-bottom: 8px; }
+  section li:last-child { margin-bottom: 0; }
+  section li::marker { color: var(--accent); }
+  strong { color: var(--ink); font-weight: 700; }
+  a { color: var(--accent-soft); text-decoration-thickness: 1px; }
+  a:hover { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  footer { margin-top: 36px; padding-top: 22px; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+  footer .contact { font-size: 14.5px; color: var(--ink-soft); }
+  footer .contact a { color: var(--accent); font-weight: 600; }
+  .filecode { font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: 11.5px; letter-spacing: 0.06em; color: var(--ink-soft); opacity: 0.7; }
+  @media (prefers-reduced-motion: no-preference) { .sheet { animation: rise 0.4s ease-out; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<div class="sheet">
+  <div class="sheet-inner">
+    <header>
+      <div>
+        <p class="eyebrow">Terms of Service</p>
+        <h1>Riddle Content Automation Tools</h1>
+      </div>
+      <div class="stamp"><strong>Effective</strong>27 Jul 2026</div>
+    </header>
+
+    <p class="lede">
+      This tool is private, single-operator automation software used to produce and publish
+      short-form riddle videos to the developer's own YouTube and TikTok channels. These terms
+      describe how it may be used.
+    </p>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">01</span><h2>Scope</h2></div>
+      <p>
+        This software is built, owned, and operated by a single developer for internal use in
+        producing riddle-format short-form video content and publishing it to their own social
+        media accounts. It is not distributed or offered to the public as a hosted service.
+      </p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">02</span><h2>Acceptable use</h2></div>
+      <p>
+        The tool may only be used to manage accounts the developer owns or is explicitly authorized
+        to operate. It must be used in compliance with the terms of service and developer policies
+        of every third-party platform it connects to, including
+        <a href="https://www.tiktok.com/legal/page/global/tik-tok-developer-terms-of-service/en" target="_blank" rel="noopener">TikTok's Developer Terms of Service</a>
+        and YouTube's Terms of Service.
+      </p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">03</span><h2>No warranty</h2></div>
+      <p>
+        This software is provided "as is," without warranty of any kind. The developer makes no
+        guarantee of uninterrupted operation, accuracy of analytics data, or successful publishing
+        of any given piece of content.
+      </p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">04</span><h2>Third-party platforms</h2></div>
+      <p>
+        Access to YouTube and TikTok is granted through each platform's official developer APIs and
+        OAuth authorization flows. Continued use is subject to those platforms' own terms, and
+        access may be revoked at any time by the developer or by the platform.
+      </p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">05</span><h2>Changes</h2></div>
+      <p>
+        These terms may be revised as the tooling evolves. The date above reflects the most recent
+        revision.
+      </p>
+    </section>
+
+    <footer>
+      <p class="contact">Questions: <a href="mailto:dhiya0233@gmail.com">dhiya0233@gmail.com</a></p>
+      <p class="filecode">DOC / TOS-01 / REV.2026-07-27</p>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
